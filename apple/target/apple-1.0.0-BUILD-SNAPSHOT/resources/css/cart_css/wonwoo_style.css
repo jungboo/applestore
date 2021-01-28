@@ -1,0 +1,674 @@
+/* /////////////////////////////////////  장바구니 내역 */
+
+div#body {
+	background-color: rgb(240, 240, 240);
+}
+
+#cart_title {
+	color: blue;
+}
+
+div#cart_main {
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 100px;
+	background-color: white;
+}
+
+div#pr_panel {
+	width: 800px;
+	height: 120px;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+div#cb {
+	display: inline;
+	height: 120px;
+	width: 50px;
+	float: left;
+	border-top: 1px solid gray;
+	border-bottom: 1px solid gray;
+}
+
+span#sel_all {
+	margin-left: 40px;
+	
+}
+
+span#product_info {
+	margin-left: 300px;
+	
+}
+
+span#product_price {
+	margin-left: 265px;
+	
+}
+
+
+.deleteCb {
+	display: block;
+	margin-top: 50px;
+	margin-left: 20px;
+}
+
+div#pr_image {
+	display: inline;
+	width: 120px;
+	height: 120px;
+	padding-top: 20px;
+	/*            background-color: aqua;*/
+	float: left;
+	border-top: 1px solid gray;
+	border-bottom: 1px solid gray;
+}
+
+img#ct_image {
+	margin-top: 20px;
+	
+}
+
+div#pr_box {
+	display: inline;
+	height: 120px;
+	width: 530px;
+	/*            background-color: coral;*/
+	float: left;
+	border-top: 1px solid gray;
+	border-bottom: 1px solid gray;
+}
+
+span#name {
+	font-size: 13px;
+	font-weight: bold;	
+}
+
+
+div#pr_name {
+	display: inline-block;
+	height: 35px;
+	width: 520px;
+	margin-top: 10px;
+	margin-left: 5px;
+	border-bottom: 1px solid black;
+	text-align: center;
+}
+
+span#arrive_date {
+	display: inline-block;
+	margin-top: 20px;
+	margin-left: 10px;
+}
+
+div#div_count {
+	display: inline-block;
+	margin-left: 5px;
+	margin-top: 20px;
+}
+
+button#cDown {
+	width: 25px;
+	font-size: 13px;	
+}
+
+
+button#cUp {
+	width: 25px;
+	font-size: 13px;	
+}
+
+
+div#tp {
+	display: inline;
+	height: 120px;
+	width: 100px;
+	float: left;
+	text-align: center;
+	border: 1px solid gray;
+}
+
+span.total_price {
+	display: block;
+	margin-top: 32px;
+	font-size: 13px;
+	font-weight: bold;
+}
+
+.about_price {
+	font-size: 12px;
+	margin-top: 25px;
+	float: right;
+	margin-right: 11px;
+}
+
+
+span#sum_price {
+	font-weight: bolder;
+	color: rgb(080, 080, 255);
+}
+
+span#total_pay {
+	font-weight: bolder;
+	color: rgb(080, 080, 255);
+}
+
+input#keep_shopping {
+	background-color: white;
+	height: 50px;
+	width: 150px;
+	text-align: center;
+	color: rgb(080, 080, 255);
+	float: left;
+	border: 2px solid rgb(080, 080, 255);
+	margin-left: 300px;
+	margin-top: 50px;
+}
+
+input#purchase {
+	background-color: rgb(080, 080, 255);
+	height: 50px;
+	width: 150px;
+	text-align: center;
+	color: white;
+	float: right;
+	margin-right: 300px;
+	margin-top: 50px;
+}
+
+div#conclude {
+	display: block;
+	width: 810px;
+	height: 100px;
+	margin-left: 95px;
+	margin-right: 50px;
+	margin-top: 40px;
+	text-align: center;
+	border: 4px solid gray;
+}
+
+div#menubar {
+	display: inline-block;
+	width: 800px;
+	height: 30px;
+	margin-left: 100px;
+	margin-right: 100px;
+	margin-top: 50px;
+	border-top: 1px solid gray;
+	border-bottom: 1px solid gray;
+	padding-left: 15px;
+	padding-top: 7px;
+}
+
+span#price_conclude {
+	display: block;
+	font-size: 15px;
+	margin-top: 35px;
+	
+}
+
+input#select_all {
+	margin-left: 5px;
+}
+
+div#deletebar {
+	display: inline-block;
+	width: 800px;
+	height: 35px;
+	padding-top: 10px;
+	margin-left: 100px;
+	margin-right: 100px;
+	margin-top: 50px;
+	border-top: 1px solid gray;
+	border-bottom: 1px solid gray;
+	padding-left: 15px;
+}
+
+
+
+
+/* ////////////////////////////////////////////// */
+
+/* 	사이드 메뉴 	*/
+
+
+.left_sidemenu {
+	font-family: 'Noto Sans KR', sans-serif;
+	font-size: 20px;
+	padding: 0px;
+	margin: 0px;
+	width: 300px;
+}
+
+.menubox1 ul {
+	text-align: left;
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+.menubox1 ul li a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.menubox1 ul li ul {
+	display: none;
+}
+
+.menubox1 ul li:hover>ul {
+	display: block;
+}
+
+.menubox1 ul li:hover>a {
+	background-color: black;
+	color: white;
+	font-weight: bolder;
+}
+
+.menubox1 ul ul {
+	/*        background-color: #afafaf;*/
+	background-color: white;
+}
+
+.menubox1 a {
+	text-decoration: none;
+}
+
+.menubox1 ul li {
+	padding: 20px;
+}
+
+#mypage_contents_layout {
+	position: relative;
+	top: -290px;
+}
+
+#grid_mypage {
+	width: 1600px;
+	display: grid;
+	grid-template-columns: 305px 1090px;
+	grid-gap: 100px;
+}
+
+#show_mypageList ul {
+	list-style: none;
+}
+
+.img_class {
+	width: 80px;
+	height: 80px;
+}
+
+
+
+
+/* //////////     주문 결제        /////////////// */
+
+
+div#order_main {
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: white;
+}
+
+div#buyer_info {
+	margin-top: 100px;
+	width: 1000px;
+}
+
+table#buyer_table {
+	width: 1000px;
+	border-top: 2px gray solid
+	
+}
+
+td.buyer_header {
+	width: 150px;
+	height: 40px;
+	background-color: silver;
+	text-align: right;
+	padding-right: 15px;
+	font-size: 12px;
+	font-weight: bolder;
+	border-bottom: 1px gray solid;
+}
+
+td.buyer_data {
+	width: 800px;
+	height: 40px;
+	padding-left: 20px;
+	border-left: 1px gray solid;
+	border-bottom: 1px gray solid;
+	
+}
+
+
+
+
+div#receiver_info {
+	margin-top: 50px;
+	width: 1000px;
+}
+
+
+table#receiver_table {
+	width: 1000px;
+	border-top: 2px gray solid
+	
+}
+
+td.receiver_header {
+	width: 150px;
+	height: 40px;
+	background-color: silver;
+	text-align: right;
+	padding-right: 15px;
+	font-size: 12px;
+	font-weight: bolder;
+	border-bottom: 1px gray solid;
+}
+
+td.receiver_data {
+	width: 800px;
+	height: 40px;
+	padding-left: 20px;
+	border-left: 1px gray solid;
+	border-bottom: 1px gray solid;
+	
+}
+
+
+div#purchase_info {
+	margin-top: 50px;
+	width: 1000px;
+}
+
+
+table#purchase_table {
+	width: 1000px;
+	border-top: 2px gray solid
+	
+}
+
+td.purchase_header {
+	width: 150px;
+	height: 40px;
+	background-color: silver;
+	text-align: right;
+	padding-right: 15px;
+	font-size: 12px;
+	font-weight: bolder;
+	border-bottom: 1px gray solid;
+}
+
+td.purchase_data {
+	width: 800px;
+	height: 40px;
+	padding-left: 20px;
+	border-left: 1px gray solid;
+	border-bottom: 1px gray solid;
+	
+}
+
+td.purchase_method_header {
+	width: 150px;
+	height: 160px;
+	background-color: silver;
+	text-align: right;
+	padding-right: 15px;
+	font-size: 12px;
+	font-weight: bolder;
+	border-bottom: 1px gray solid;
+}
+
+td.purchase_method_data {
+	width: 800px;
+	height: 160px;
+	padding-left: 20px;
+	border-left: 1px gray solid;
+	border-bottom: 1px gray solid;
+	
+}
+
+div#buttonGroup {
+	width: 1000px;
+	height: 250px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 50px;
+	background-color: white;
+	
+}
+
+input#return_cart {
+	background-color: white;
+	color: rgb(080, 080, 255);
+	border: 3px rgb(080, 080, 255) solid;
+	height: 50px;
+	width: 150px;
+	text-align: center;
+	float: left;
+	margin-left: 300px;
+	margin-top: 50px;
+}
+
+input#purchase_final {
+	background-color: rgb(080, 080, 255);
+	height: 50px;
+	width: 150px;
+	text-align: center;
+	color: white;
+	float: right;
+	margin-right: 300px;
+	margin-top: 50px;
+}
+
+/* ////////	주문 내역	//////////// */
+
+div#ov_main {
+	
+	width: 1000px;
+	margin-top: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: white;
+}
+
+div#ov_list {
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: gray;
+	padding-bottom: 100px;
+}
+
+div#od_list {
+	padding-top: 50px;
+}
+
+
+div#prct_box {
+	width: 950px;
+	height: 120px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: white;
+}
+
+
+div#ov_status {
+	width: 950px;
+	height: 50px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+b#ov_date {
+	
+	font-size: 25px;
+}
+
+b#ov_status {
+	
+	margin-left: 20px;
+	color:green;
+	font-size: 25px;
+}
+
+b#ov_price {
+	
+	font-size: 25px;
+	float: right;
+}
+
+
+
+div#prct_image {
+	display: inline-block;;
+	width: 120px;
+	height: 120px;
+	margin-left: 20px;
+}
+
+img#ov_prct_image {
+	width: 100px;
+	height: 100px;
+	margin-top: 10px;
+	margin-left: 20px;
+	
+}
+
+
+div#prct_name {
+	display: inline-block;
+	width: 600px;
+	text-align: center;
+}
+
+span#ov_prct_name {
+	font-size: 25px;
+	
+}
+
+span#prct_price {
+	
+	font-size: 15px;
+	
+}
+
+span#prct_count {
+	
+	margin-left: 20px;
+	font-size: 15px;
+}
+
+div#buttons {
+	width: 950px;
+	height: 150px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 25px;
+	padding-right: 25px;
+	background-color: white;
+	border-top: 2px solid gray;
+	
+}
+
+button#bt_cancle_order {
+	background-color: white;
+	height: 50px;
+	width: 150px;
+	text-align: center;
+	color: rgb(080, 080, 255);
+	float: left;
+	margin-left: 200px;
+	margin-top: 50px;
+	border: 2px solid rgb(080, 080, 255);
+}
+
+button#bt_check_delievery {
+	background-color: rgb(080, 080, 255);
+	height: 50px;
+	width: 150px;
+	text-align: center;
+	color: white;
+	float: right;
+	margin-right: 200px;
+	margin-top: 50px;
+}
+
+div#final_main {
+	
+	width: 1000px;
+	height: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: white;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	border: 2px solid silver;
+}
+
+span#order_finish {
+	display: block;
+	font-size: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	margin-top: 100px;
+	
+}
+
+button#go_main {
+	display: block;
+	background-color: rgb(080, 080, 255);
+	height: 50px;
+	width: 150px;
+	text-align: center;
+	color: white;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 200px;
+	border: 2px solid rgb(080, 080, 255);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

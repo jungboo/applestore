@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="IAdminLoginDAO">
+	<insert id="adminJoin" parameterType="adminVO">
+		<![CDATA[
+			insert into admin_login values(null, #{login}, hex(aes_encrypt(#{pw}, #{login})))
+		]]>
+	</insert>
+	<select id="DuplicatedAdmin" parameterType="string">
+		<![CDATA[
+			select count(id) from admin_login where login=#{login}
+		]]>
+	</select>
+	<select id="loginProcess" parameterType="string"
+		resultType="map">
+		<![CDATA[
+			select id, login, cast(aes_decrypt(unhex(pw),#{login})as char(32) character set utf8)
+			 as pw from admin_login where login=#{login}
+		]]>
+	</select>
+	<select id="selectOneAdminByLogin" parameterType="string" resultType="adminVO">
+		<![CDATA[
+			select * from admin_login where login=#{login}
+		]]>
+	</select>
+</mapper>
+
+

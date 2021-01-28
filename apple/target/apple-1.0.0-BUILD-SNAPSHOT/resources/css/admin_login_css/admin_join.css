@@ -1,0 +1,51 @@
+@import "https://use.fontawesome.com/releases/v5.5.0/css/all.css";
+body{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: url("../../images/adminLogin_bg.jpg") no-repeat;
+  background-size: cover;
+  }
+.join-box{
+  width: 400px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.join-box h1{
+  float: left;
+  font-size: 40px;
+  border-bottom: 6px solid white;
+  margin-bottom: 50px;
+  padding: 13px 0;
+  color: white;
+}
+.textbox{
+  width: 100%;
+  overflow: hidden;
+  font-size: 20px;
+  margin: 8px 0;
+  color: white;
+}
+.textbox input{
+  border: 2px solid white;
+  outline: none;
+  font-size: 18px;
+  width: 80%;
+  float: left;
+  margin: 12px 10px;
+}
+.text{
+	border: 2px solid white;
+  	outline: none;
+  	font-size: 18px;
+  	width: 80%;
+ 	float: left;
+ 	margin: 12px 10px;
+}
+.btn{
+	cursor: pointer;
+	background: none;
+	color: white;
+}

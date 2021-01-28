@@ -1,0 +1,265 @@
+/*----------- 메인 화면 아이패드 배너 -----------*/
+.offer-banner {
+	padding: 30px 0;
+}
+
+.offer-banner .banner-offer-img {
+	padding: 50px;
+}
+
+.small-container {
+	max-width: 1400px;
+	margin: auto;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+.row-banner {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	text-align: center;
+}
+
+.col-2-banner {
+	flex-basis: 50%;
+	min-width: 300px;
+}
+
+/*----------- 메인 화면 애플워치 회전 배너 -----------*/
+.categories {
+	padding: 20px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	text-align: center;
+}
+
+.col-3-banner {
+	flex-basis: 25%;
+	min-width: 250px;
+	margin-bottom: 10px;
+	margin-top: 50px;
+}
+
+.col-3-banner img {
+	width: 100%;
+}
+
+#rotating_img {
+	-webkit-animation: rotation 20s infinite linear;
+}
+
+@-webkit-keyframes rotation {
+    from {-webkit-transform: rotate(0deg);}
+    to   {-webkit-transform: rotate(359deg);}
+}
+
+
+
+/*----------- 상품리스트(메인화면,카테고리) -----------*/
+.prodList_wrap {
+	max-width: 1400px;
+	margin: auto;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+.pd_box {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	text-align: center;
+}
+
+.prod_li {
+	width: 25%
+}
+
+.prod_wrap {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.prod_st {
+	flex-basis: 25%;
+	padding: 10px;
+	min-width: 200px;
+	margin-bottom: 25px;
+	text-align: center;
+	transition: transform 0.5s
+}
+
+.prod_st h4 {
+	margin-top: 10px;
+}
+
+.prod_st img {
+	margin-top: 20px;
+	width: 50%
+}
+
+.prod_st img:hover {
+	transform: translateY(-5px);
+}
+
+.small-container {
+	max-width: 1400px;
+	margin: auto;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+.pd-price {
+	font-size: 14px;
+}
+
+.pd-title {
+	text-align: center;
+	margin: 0 auto 10px;
+	position: relative;
+	line-height: 60px;
+	color: black;
+}
+
+.pd-title::after {
+	content: '';
+	background: #ff523b;
+	width: 100px;
+	height: 5px;
+	border-radius: 5px;
+	position: absolute;
+	bottom: 0px;
+	left: 46%;
+	transform: translateX(-50);
+}
+
+/*----------- 셀렉션 ----------------*/
+
+.pd_select {
+	width: 15%;
+	text-align: center;
+	font-size: 12px;
+	
+}
+
+
+/*----------- 페이지네이션 -----------*/
+.page-btn {
+    margin: 0 auto 80px;
+    text-align: center;
+    font-size: 12px;
+    
+}
+.page-btn-link{
+	display: inline-block;
+}
+
+.page-btn .page-span{
+    display: inline-block;
+    border: 1px solid black;
+    margin-left: 10px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+    color: black;
+}
+
+.page-btn .page-span:hover {
+    background: #ff523b;
+    color: #fff;
+    
+}
+
+/*----------- 상세보기-----------*/
+
+.pd_show {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.product-row {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	text-align: center;
+}
+
+.single-product {
+	margin-top: 150px;
+}
+
+.single-product .product-img {
+	padding: 0;
+}
+
+.single-product .product-col-2 {
+	padding: 0px;
+}
+
+.single-product .product-h1 {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.single-product .product-h4 {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-size: 22px;
+	font-weight: bold;
+}
+
+.single-product .product-h5 {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-size: 15px;
+}
+
+.single-product .product-color-select {
+	display: inline-block;
+	padding: 10px;
+	margin: 20px;
+	font-size: 14px;
+	text-align: center;
+}
+
+.single-product .product-cart {
+	width: 50px;
+	height: 40px;
+	padding-left: 10px;
+	font-size: 20px;
+	margin-right: 10px;
+}
+
+input:focus {
+	outline: none;
+}
+
+.Product_detail {
+	padding: 10px
+}
+
+.single-product .Product_detail2 {
+	padding: 10px;
+	font-size: 16px;
+}
+
+.cart-btn2 {
+	display: inline-block;
+	background-color: #ff523b;
+	color: #fff;
+	padding: 8px 30px;
+	margin: 30px 0;
+	border-radius: 30px;
+	transition: background 0.5s;
+}
+
+.cart-btn2:hover {
+	background: #563434;
+}

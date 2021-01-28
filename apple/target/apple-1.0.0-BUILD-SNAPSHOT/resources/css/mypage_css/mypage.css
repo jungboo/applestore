@@ -1,0 +1,640 @@
+@charset "UTF-8";
+/*---------- 마이페이지 메인 -----------*/ 
+.left_sidemenu {
+	font-family: 'Noto Sans KR', sans-serif;
+	font-size: 20px;
+	padding: 0px;
+	margin: 0px;
+	width: 300px;
+	
+}
+
+.menubox1 ul {
+	text-align: left;
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+.menubox1 ul li a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.menubox1 ul li ul {
+	display: none;
+}
+
+.menubox1 ul li:hover>ul {
+	display: block;
+}
+
+.menubox1 ul li:hover>a {
+	background-color: black;
+	color: white;
+	font-weight: bolder;
+}
+
+.menubox1 ul ul {
+	/*        background-color: #afafaf;*/
+	background-color: white;
+}
+
+.menubox1 a {
+	text-decoration: none;
+}
+
+.menubox1 ul li {
+	padding: 20px;
+}
+
+/*#mypage_contents_layout {
+        position: relative;
+        left: 305px;
+        top: -290px;
+    }*/
+#grid_mypage {
+	width: 1600px;
+	display: grid;
+	grid-template-columns: 305px 1090px;
+	grid-gap: 100px;
+}
+
+#show_mypageList ul {
+	list-style: none;
+}
+#show_mypageList h3{
+	font-size: 20px;
+	font-weight: bold;
+}
+#show_mypageList p{
+	font-size: 15px;
+}
+#show_mypageList li{
+	margin-top: 35px;
+}
+#mypage_header{
+	font-size: 26px;
+}
+#mypage_header_detail{
+	font-size: 18px;
+}
+#show_mypageList{
+	margin-bottom: 235px;
+}
+/*---------- 마이페이지 회원정보 -----------*/ 
+#div_form_area {
+	padding-left: 80px;
+	padding-top: 80px;
+}
+
+.div_label {
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.input_layout {
+	width: 490px;
+	height: 100px;
+	display: inline-block;
+}
+
+.input_layout input[type=text] {
+	border: 1px solid white;
+	width: 350px;
+	height: 25px;
+	border-bottom-style: groove;
+	border-bottom-color: beige;
+	font-size: 15px;
+}
+
+.input_layout input[type=email] {
+	border: 1px solid white;
+	width: 350px;
+	height: 25px;
+	font-size: 15px;
+	border-bottom-style: groove;
+	border-bottom-color: beige;
+}
+.mp_check_area{
+	font-size:14px;
+	color:red;
+	width: 200px;
+	height: 10px;
+}
+.input_layout.address{
+	display: none;
+}
+.input_layout input[type=button] {
+	width: 100px;
+	height: 35px;
+	background-color: black;
+	color: white;
+	font-weight: bolder;
+	font-size: 15px;
+}
+
+.input_layout input[type=submit] {
+	width: 200px;
+	height: 40px;
+	background-color: black;
+	color: white;
+	font-size: 15px;
+}
+#mypage_contents_layout p{
+	font-size: 13px;
+	line-height: 20px;
+}
+
+#content_top {
+	width: 900px;
+	min-height: 800px;
+}
+
+.left_sidemenu {
+	font-family: 'Noto Sans KR', sans-serif;
+	font-size: 20px;
+	padding: 0px;
+	margin: 0px;
+	width: 300px;
+}
+
+.menubox1 ul {
+	text-align: left;
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+.menubox1 ul li a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.menubox1 ul li ul {
+	display: none;
+}
+
+.menubox1 ul li:hover>ul {
+	display: block;
+}
+
+.menubox1 ul li:hover>a {
+	background-color: black;
+	color: white;
+	font-weight: bolder;
+}
+
+.menubox1 ul ul {
+	/*        background-color: #afafaf;*/
+	background-color: white;
+}
+
+.menubox1 a {
+	text-decoration: none;
+}
+
+.menubox1 ul li {
+	padding: 20px;
+}
+
+/*#mypage_contents_layout {
+        position: relative;
+        left: 305px;
+        top: -290px;
+    }*/
+#grid_mypage {
+	width: 1600px;
+	display: grid;
+	grid-template-columns: 305px 1090px;
+	grid-gap: 100px;
+}
+
+#show_mypageList ul {
+	list-style: none;
+}
+/*---------- 마이페이지 비밀번호변경 -----------*/ 
+<style type="text/css">
+	#mypage_contents_layout p{
+		font-size: 13px;
+		line-height: 20px;
+	}
+.mypage_pw_check {
+font-size: 13px;
+}
+.left_sidemenu {
+	font-family: 'Noto Sans KR', sans-serif;
+	font-size: 20px;
+	padding: 0px;
+	margin: 0px;
+	width: 300px;
+}
+
+.menubox1 ul {
+	text-align: left;
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+.menubox1 ul li a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.menubox1 ul li ul {
+	display: none;
+}
+
+.menubox1 ul li:hover>ul {
+	display: block;
+}
+
+.menubox1 ul li:hover>a {
+	background-color: black;
+	color: white;
+	font-weight: bolder;
+}
+
+.menubox1 ul ul {
+	/*        background-color: #afafaf;*/
+	background-color: white;
+}
+
+.menubox1 a {
+	text-decoration: none;
+}
+
+.menubox1 ul li {
+	padding: 20px;
+}
+
+/*#mypage_contents_layout {
+        position: relative;
+        left: 305px;
+        top: -290px;
+    }*/
+#grid_mypage {
+	width: 1600px;
+	display: grid;
+	grid-template-columns: 305px 1090px;
+	grid-gap: 100px;
+}
+.pw_label_layout label{
+	font-size: 15px;
+	font-weight:bold;
+}
+#show_mypageList ul {
+	list-style: none;
+}
+
+#div_pw_form_area {
+	padding: 80px 80px;
+}
+
+.pwbox_layout {
+	width: 700px;
+	height: 100px;
+}
+
+.pwbox_layout input[type=password] {
+	width: 500px;
+	height: 50px;
+	border: 1px solid;
+	border-color: white;
+	border-bottom-color: beige;
+	border-bottom-style: groove;
+	font-size: 15px;
+}
+
+#pwchange_submit {
+	background-color: black;
+	color: white;
+	font-size: 15px;
+	width: 200px;
+	height: 40px;
+}
+/*---------- 마이페이지 주소지설정 -----------*/ 
+#div_form_area {
+	padding-left: 80px;
+	padding-top: 80px;
+}
+
+.div_label {
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.input_layout {
+	width: 490px;
+	height: 100px;
+	display: inline-block;
+}
+
+.input_layout input[type=text] {
+	border: 1px solid white;
+	width: 350px;
+	height: 25px;
+	font-size: 15px;
+	border-bottom-style: groove;
+	border-bottom-color: beige;
+}
+
+.input_layout input[type=email] {
+	border: 1px solid white;
+	width: 350px;
+	height: 25px;
+	border-bottom-style: groove;
+	border-bottom-color: beige;
+}
+.mp_check_area{
+	width: 200px;
+	height: 10px;
+}
+
+.input_layout input[type=button] {
+	width: 100px;
+	height: 30px;
+	background-color: black;
+	color: white;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.input_layout input[type=submit] {
+	width: 200px;
+	height: 40px;
+	background-color: black;
+	color: white;
+}
+.input_layout.hidden{
+	display: none;
+}
+
+#content_top {
+	width: 900px;
+	min-height: 800px;
+}
+
+.left_sidemenu {
+	font-family: 'Noto Sans KR', sans-serif;
+	font-size: 20px;
+	padding: 0px;
+	margin: 0px;
+	width: 300px;
+}
+
+.menubox1 ul {
+	text-align: left;
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+.menubox1 ul li a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.menubox1 ul li ul {
+	display: none;
+}
+
+.menubox1 ul li:hover>ul {
+	display: block;
+}
+
+.menubox1 ul li:hover>a {
+	background-color: black;
+	color: white;
+	font-weight: bolder;
+}
+
+.menubox1 ul ul {
+	/*        background-color: #afafaf;*/
+	background-color: white;
+}
+
+.menubox1 a {
+	text-decoration: none;
+}
+
+.menubox1 ul li {
+	padding: 20px;
+}
+
+#mypage_contents_layout p{
+	font-size: 13px;
+	line-height: 20px;
+}
+#grid_mypage {
+	width: 1600px;
+	display: grid;
+	grid-template-columns: 305px 1090px;
+	grid-gap: 100px;
+}
+
+#show_mypageList ul {
+	list-style: none;
+}
+#pw_update_button{
+	font-size: 15px;
+	font-weight: bold;
+}
+/*---------- 마이페이지 review -----------*/ 
+#div_form_area {
+	padding-left: 80px;
+	padding-top: 80px;
+}
+
+.div_label {
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.left_sidemenu {
+	font-family: 'Noto Sans KR', sans-serif;
+	font-size: 20px;
+	padding: 0px;
+	margin: 0px;
+	width: 300px;
+}
+
+.menubox1 ul {
+	text-align: left;
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+.menubox1 ul li a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.menubox1 ul li ul {
+	display: none;
+}
+
+.menubox1 ul li:hover>ul {
+	display: block;
+}
+
+.menubox1 ul li:hover>a {
+	background-color: black;
+	color: white;
+	font-weight: bolder;
+}
+
+.menubox1 ul ul {
+	/*        background-color: #afafaf;*/
+	background-color: white;
+}
+
+.menubox1 a {
+	text-decoration: none;
+}
+
+.menubox1 ul li {
+	padding: 20px;
+}
+
+#mypage_contents_layout p {
+	font-size: 13px;
+	line-height: 20px;
+}
+
+#grid_mypage {
+	width: 1600px;
+	display: grid;
+	grid-template-columns: 305px 1090px;
+	grid-gap: 100px;
+}
+
+.board_list, th {
+	font-size: 15px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.board_list>th {
+	font-size: 15px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+.hr{
+    height: 3px;
+    background: black;;
+}
+
+.board_list_wrap .paging {
+	margin-left: 250px;
+}
+
+.board_list_wrap .paging a {
+	display: inline-block;
+	margin-left: 10px;
+	padding: 5px 10px;
+	border-radius: 100px;
+	font-size: 15px;
+	margin-bottom: 30px;
+}
+/*---------- 마이페이지 qna -----------*/ 
+#div_form_area {
+	padding-left: 80px;
+	padding-top: 80px;
+}
+
+.div_label {
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.left_sidemenu {
+	font-family: 'Noto Sans KR', sans-serif;
+	font-size: 20px;
+	padding: 0px;
+	margin: 0px;
+	width: 300px;
+}
+
+.menubox1 ul {
+	text-align: left;
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+.menubox1 ul li a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.menubox1 ul li ul {
+	display: none;
+}
+
+.menubox1 ul li:hover>ul {
+	display: block;
+}
+
+.menubox1 ul li:hover>a {
+	background-color: black;
+	color: white;
+	font-weight: bolder;
+}
+
+.menubox1 ul ul {
+	/*        background-color: #afafaf;*/
+	background-color: white;
+}
+
+.menubox1 a {
+	text-decoration: none;
+}
+
+.menubox1 ul li {
+	padding: 20px;
+}
+
+#mypage_contents_layout p {
+	font-size: 13px;
+	line-height: 20px;
+}
+
+#grid_mypage {
+	width: 1600px;
+	display: grid;
+	grid-template-columns: 305px 1090px;
+	grid-gap: 100px;
+}
+
+.board_list, th {
+	font-size: 15px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.board_list>th {
+	font-size: 15px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.hr {
+	height: 3px;
+	background: black;;
+}
+
+.board_list_wrap .paging {
+	margin-left: 250px;
+}
+
+.board_list_wrap .paging a {
+	display: inline-block;
+	margin-left: 10px;
+	padding: 5px 10px;
+	border-radius: 100px;
+	font-size: 15px;
+	margin-bottom: 30px;
+}

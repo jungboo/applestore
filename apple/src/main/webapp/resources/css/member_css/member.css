@@ -1,0 +1,366 @@
+@charset "UTF-8";
+/*---------- 로그인 화면 -----------*/ 
+#login_wrapper {
+	font-family: 'Noto Sans KR', sans-serif;
+	border: 1px solid white;
+	width: 450px;
+	height: 420px;
+	margin: 150px auto;
+	text-align: center;
+	/* 	border-radius: 10px; */
+}
+
+.input_class {
+	width: 450px;
+	padding: 20px;
+	text-align: center;
+	font-size: 15px;
+	/* 	border-style: none; */
+	border-radius: 10px;
+	border-bottom-style: 0.5px;
+	border-color: #d2d2d7;
+	margin-top: 15px;
+}
+
+#input_class_submit {
+	margin-top: 10px;
+	width: 450px;
+	padding: 15px;
+	text-align: center;
+	background-color: black; /* #ff523b; */
+	font-size: 15px;
+	color: white;
+	border-radius: 10px;
+}
+
+#pwjoinlist{
+	margin-top: 10px;
+}
+
+#pwjoinlist ul li {
+	width: 190px;
+	height: 20px;
+	font-size: 14px;
+	display: inline-block;
+	list-style-type: none;
+	text-decoration: none;
+	font-weight: bolder;
+	display: inline-block;
+}
+
+
+
+#div_join_content i {
+	margin-bottom: 5px;
+}
+/*---------- 회원 동의  -----------*/ 
+.agree_content {
+	height: 200px;
+	overflow: auto;
+}
+
+#agreement_wrapper {
+	font-family: 'Noto Sans KR', sans-serif;
+	width: 670px;
+	min-height: 650px;
+	border: 1px solid #e8ebee;
+	margin-top: 100px;
+	margin: 30px auto;
+	font-size: 15px;
+}
+
+.join_p {
+	text-align: center;
+}
+
+.agree_check {
+	height: 50px;
+	font-size: 16px;
+}
+
+#agree_submit input {
+	width: 670px;
+	height: 50px;
+	text-align: center;
+}
+
+#step_status {
+	position: static;
+	border-bottom: 1px solid lightgray;
+	height: 70px;
+}
+
+.smallbox {
+	width: 334px;
+	height: 70px;
+	list-style-type: none;
+	float: left;
+	text-align: center;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	font-size: 16px;
+}
+
+#show_textarea {
+	margin: 10px auto;
+	width: 670px;
+	text-align: center;
+}
+
+#show_textarea h2 {
+	font-size: 25px;
+	font-weight: bolder;
+}
+/*---------- 회원 가입폼 -----------*/ 
+#join_form_wrapper {
+	font-family: 'Noto Sans KR', sans-serif;
+	width: 670px;
+	min-height: 700px;
+	border: 1px solid lightgray;
+	margin-top: 100px;
+	margin: 30px auto;
+}
+
+#step_status {
+	position: static;
+	border-bottom: 1px solid lightgray;
+	height: 70px;
+}
+
+.smallbox {
+	width: 334px;
+	height: 70px;
+	list-style-type: none;
+	float: left;
+	text-align: center;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	font-size: 16px;
+}
+#user_id{
+	width: 420px;
+}
+#div_login input{
+display: inline-block;
+}
+#div_login input[type=button]{
+	width: 75px;
+}
+
+#div_form {
+	padding: 20px;
+}
+
+.form-group {
+	width: 500px;
+	min-height: 90px;
+	font-size: 14px;
+}
+
+.form-group input[type=text] {
+	font-size: 14px;
+	border: 0px;
+	border-bottom: 1px solid lightgray;
+	width: 500px;
+	min-height: 38px;
+}
+.form-group input[type=email] {
+	font-size: 14px;
+	border: 0px;
+	border-bottom: 1px solid lightgray;
+	width: 500px;
+	min-height: 38px;
+}
+.form-group input[type=password] {
+	font-size: 14px;
+	border: 0px;
+	border-bottom: 1px solid lightgray;
+	width: 500px;
+	min-height: 38px;
+}
+
+#div_resetAndSubmit {
+	padding: 5px;
+}
+
+#div_resetAndSubmit input {
+	width: 150px;
+	height: 30px;
+	font-size: 15px;
+}
+
+#form_margin_wapper {
+	margin-left: 50px;
+}
+
+.check_font {
+	font-size: 13px;
+	color: red;
+}
+/*---------- 아이디 비밀번호 폼 -----------*/ 
+#find_wrapper {
+	font-family: 'Noto Sans KR', sans-serif;
+	margin: 150px auto;
+	width: 600px;
+	min-height: 400px;
+	padding: 10 px;
+	border: 1px solid white;
+	font-size: 13px;
+}
+
+.tab-link.currnet {
+	 	background-color: black; 
+		color: white; 
+	
+}
+/* .tab-link.currnet.current { */
+/* 	background-color: white; */
+/* 	color: black; */
+/* }	 */
+.tabs li {
+	width: 270px;
+	background: none;
+	color: #222;
+	display: inline;
+	padding: 10px 15px;
+	cursor: pointer;
+	text-align: center;
+	font-size: 16px;
+}
+
+.tabs {
+	padding: 0px;
+}
+
+.tabs li.current {
+	background-color: black;
+	color: white; /* #222; */
+}
+
+.tab-content {
+	display: none;
+	background: white; /*  #ededed; */
+	padding: 15px;
+}
+
+.tab-content form table tr td input {
+	margin-left: 10px;
+	width: 470px;
+	height: 50px;
+	border: 0px;
+	border-bottom: 1px solid;
+	border-bottom-color: lightgray;
+}
+
+.tab-content form table tr td input[type=submit] {
+	float: right;
+	width: 100px;
+	height: 50px;
+	border-radius: 3px;
+	font-weight: bold;
+	background-color: black;
+	color: white;
+}
+
+.tab-content.current {
+	display: inherit;
+	background: white; /* #ededed; */
+}
+
+#content_wrapper {
+	border-top: 1px solid lightgray;
+}
+/*---------- 아이디 결과 페이지 -----------*/ 
+#div_result_id {
+	font-family: 'Noto Sans KR', sans-serif;
+	margin: 150px auto;
+	width: 500px;
+	min-height: 400px;
+	border: 1px solid white;
+}
+
+#div_result_id input {
+	display: inline-block;
+	margin-left: 5px;
+	width: 145px;
+	height: 40px;
+	background-color: black;
+	color: white;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+#div_result_button {
+	margin-top: 10px;
+	padding-left: 190px;
+}
+
+.result_label {
+	font-size: 13px;
+	font-weight: bold;
+}
+
+#result_id_area {
+	height: 150px;
+}
+#div_result_id h2{
+font-size: 26px;
+}
+#div_text_center {
+	font-size:20px;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 90px;
+	padding-top: 30px;
+	width: 500px;
+	height: 120px;
+}
+/*---------- 비밀번호 결과 페이지 -----------*/ 
+#div_result_pw {
+	font-family: 'Noto Sans KR', sans-serif;
+	margin: 150px auto;
+	width: 560px;
+	min-height: 400px;
+	border: 1px solid white;
+}
+
+#div_result_pw input {
+	display: inline-block;
+	margin-left: 5px;
+	width: 145px;
+	height: 40px;
+	background-color: black;
+	color: white;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+#div_pwresult_button {
+	margin-top: 10px;
+	padding-left: 340px;
+}
+
+.result_pw_label {
+	font-size: 13px;
+	font-weight: bold;
+}
+
+#result_pw_area {
+	height: 150px;
+}
+
+#div_result_pw h2 {
+	font-size: 26px;
+}
+#div_pwtext_center label{
+	height: 50px;
+}
+#div_pwtext_center {
+	font-size:15px;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 50px;
+	width: 510px;
+	height: 100px;
+}
+
